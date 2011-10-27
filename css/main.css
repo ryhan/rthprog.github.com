@@ -27,14 +27,6 @@ article{
 	padding:20px;
 }
 
-/* Mobile layout */
-@media only screen and (max-width: 480px) {
-	article{
-		width:300px;
-		margin:15px auto;
-	}
-}
-
 section{
 	padding:15px 0 40px;
 	border-top:1px solid #EEE;
@@ -77,4 +69,14 @@ section li:hover .tag{
 	margin-left:20px;
 	opacity:1.0;
 	-webkit-transition: all 0.1 s ease-out;
+}
+
+
+/* Mobile layout */
+@media only screen and (max-width: 480px) {
+	article{
+		width:300px;
+		margin:15px auto;
+	}
+	span.tag{display:none;}
 }
